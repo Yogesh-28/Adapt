@@ -1,0 +1,15 @@
+#inner{
+	font-weight: bold;
+}
+
+#outer{
+	margin:0px;
+	font-size: 20px;
+	border: 2px solid red;
+}
+
+#outermost{
+	width:35%;
+	padding: 0px;
+	border: 5px dotted lightgreen;
+}

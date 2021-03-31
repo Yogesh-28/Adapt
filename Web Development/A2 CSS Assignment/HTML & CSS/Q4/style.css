@@ -1,0 +1,39 @@
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+.img1{
+  height:100%;
+  width: 100%;
+  background-image: url("a.jpg");
+  position: absolute;
+  opacity: 0.40;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption{
+  top: 50%;
+  color: black;
+  position: relative;
+  text-align: center;
+}
+
+.start-btn{
+  margin: auto;
+  width: 10%;
+}
+
+#intro{
+  margin-top: 43%;
+  text-align: center;
+}
+
+
+.beechMein{
+  text-align: center;
+}
+

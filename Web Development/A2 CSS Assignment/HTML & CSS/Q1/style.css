@@ -1,0 +1,23 @@
+.container{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: rgb(234,234,234);
+}
+
+.beechMein{
+	text-align: center;
+}
+
+h1{
+	padding-top: 50px;
+}
+
+.cursive{
+	font-family: cursive;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
