@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">  <!-- xml doctype -->
+
+<beans>
+
+<bean id="ques1" class="org.Q2.Question1">
+<property name="questionId" value="1. "></property>
+<property name="question" value="Characteristics of dog?"></property>
+<property name="answer">
+<list>
+<value>-> 4 legs</value>
+<value>-> Bark</value>
+<value>-> Pet</value>
+</list>
+</property>
+</bean>
+
+<bean id="ques2" class="org.Q2.Question2">
+<property name="questionId" value="2. "></property>
+<property name="question" value="Characteristics of cat?"></property>
+<property name="answer">
+<set>
+<value>-> 4 legs</value>
+<value>-> Meow-Meow</value>
+<value>-> Pet</value>
+</set>
+</property>
+</bean>
+
+<bean id="ques3" class="org.Q2.Question3">
+<property name="questionId" value="3. "></property>
+<property name="question" value="Characteristics of lion?"></property>
+<property name="answer">
+<map>
+<entry key="1" value="4 legs"></entry>
+<entry key="2" value="roar"></entry>
+<entry key="3" value="Wild"></entry>
+</map>
+</property>
+</bean>
+
+</beans>
